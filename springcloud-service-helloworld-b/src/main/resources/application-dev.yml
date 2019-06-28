@@ -4,8 +4,6 @@ eureka:
             defaultZone: http://localhost:8001/eureka/
 server:
     port: 8003
-    servlet:
-        context-path: /service-helloworld
 spring:
     application:
         name: service-helloworld
